@@ -10,7 +10,7 @@ def init():
 
 def hash_object(data, type_ = 'blob'):
 	obj = type_.encode() + b'\x00' + data
-	old = hashlib.sha1(obj).hexdigest()
+	oid = hashlib.sha1(obj).hexdigest()
 	
 	with open(f'{PIT_DIR}/objects/{oid}', 'wb') as out:
 		out.write(obj)
