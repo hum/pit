@@ -1,3 +1,5 @@
+## manages the .pit directiory
+
 import os
 
 PIT_DIR = '.pit'
