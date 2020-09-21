@@ -4,7 +4,7 @@ __pycache__/
 *$py.class
 
 *.py.swp
-
+.pit/objects/*
 # C extensions
 *.so
 
